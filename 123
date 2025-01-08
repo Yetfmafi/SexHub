@@ -1,0 +1,7 @@
+local placeId = game.PlaceId
+
+if placeId == 2753915549 then -- Bloxfruits
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HohoV2/main/ScriptLoad.lua"))()
+else
+    print("Invalid PlaceID")
+end
